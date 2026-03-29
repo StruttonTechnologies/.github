@@ -1,4 +1,4 @@
-# Strutton Technologies <p align="center">
+<p align="center">
   <img src="https://github.com/StruttonTechnologies/Assets/blob/main/Logos/StruttonTechnologies_FullLogo.png" width="250"/>
 </p>
 
