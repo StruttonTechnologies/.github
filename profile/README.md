@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://github.com/StruttonTechnologies/Assets/blob/main/Logos/StruttonTechnologies_FullLogo.png" width="250"/>
+  <img src="https://raw.githubusercontent.com/StruttonTechnologies/Assets/main/Logos/StruttonTechnologies_FullLogo.png" width="250"/>
 </p>
+
+# Strutton Technologies
 
 Strutton Technologies focuses on building maintainable, well-structured software systems using practical architecture, reusable components, and consistent development practices.
 
@@ -10,8 +12,7 @@ Strutton Technologies focuses on building maintainable, well-structured software
 
 Structured documentation is a primary part of this organization.
 
-- [Architecture Book](https://github.com/StruttonTechnologies/Documentation.Application.Architecture)  
-
+- [Architecture Book](https://github.com/StruttonTechnologies/Documentation.Application.Architecture)
 
 These documents explain the architectural approach, design decisions, and supporting utilities used across projects.
 
@@ -102,25 +103,45 @@ Current work is centered around the .NET ecosystem, including:
 
 ---
 
-## 📦 Repository Categories
+## 📦 Products
 
-As the organization grows, repositories will generally fall into several categories.
+Core capability libraries and templates designed to support consistent, maintainable application architecture.
 
-### Templates
+### Available
 
-Starting points for new solutions, projects, and modules.
+- **Core.ToolKit**  
+  *Core Capability Toolkit*  
+  Reusable engineering utilities for guard logic, validation, service composition, and testing support.  
+  [View Repository](https://github.com/StruttonTechnologies/Core.ToolKit)
 
-### Libraries
+- **Core.Identity**  
+  *Core Capability Identity Management*  
+  Identity and authentication components designed to integrate with the core architectural model.  
+  [View Repository](https://github.com/StruttonTechnologies/Core.Identity)
 
-Reusable components intended to support common application concerns.
+---
 
-### Documentation and Guidance
+### Coming Soon
 
-Architecture references, standards, and development guidance.
+- **Core**  
+  *Core Capability Package*  
+  Foundational components and shared capabilities that support higher-level modules and services.
 
-### Tooling
+- **Templates.CleanMonolith**  
+  *Clean Monolith Application Template*  
+  A structured starting point for building layered applications with clear boundaries and maintainable design.
 
-Supporting assets that help streamline development workflows and consistency.
+- **Templates.ServiceBased**  
+  *Service-Based Application Template*  
+  A modular architecture template designed for scaling applications through independent business capabilities.
+
+- **Templates.Modules**  
+  *Service-Based Module Template*  
+  A reusable module structure for implementing isolated business functionality within a service-based system.
+
+- **Templates.MicroService**  
+  *Microservice Application Template*  
+  A template for building independently deployable services aligned with the core architectural model.
 
 ---
 
