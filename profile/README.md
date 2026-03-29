@@ -10,8 +10,8 @@ Strutton Technologies focuses on building maintainable, well-structured software
 
 Structured documentation is a primary part of this organization.
 
-- [Architecture Book](https://github.com/StruttonTechnologies/ArchitectureDocumentation)  
-- [Core ToolKit Documentation](https://github.com/StruttonTechnologies/Documentation.Core.ToolKits)  
+- [Architecture Book](https://github.com/StruttonTechnologies/Documentation.Application.Architecture)  
+
 
 These documents explain the architectural approach, design decisions, and supporting utilities used across projects.
 
