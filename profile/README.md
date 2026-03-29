@@ -109,10 +109,10 @@ Core capability libraries and templates designed to support consistent, maintain
 
 ### Available
 
-- **Core.ToolKit**  
+- **Core.ToolKits**  
   *Core Capability Toolkit*  
   Reusable engineering utilities for guard logic, validation, service composition, and testing support.  
-  [View Repository](https://github.com/StruttonTechnologies/Core.ToolKit)
+  [View Repository](https://github.com/StruttonTechnologies/Core.ToolKits)
 
 - **Core.Identity**  
   *Core Capability Identity Management*  
