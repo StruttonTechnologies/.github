@@ -1,8 +1,19 @@
 # Strutton Technologies
 
-Strutton Technologies develops architecture templates, development standards, and reusable .NET components designed to help teams build maintainable and scalable applications.
+Strutton Technologies focuses on building maintainable, well-structured software systems using practical architecture, reusable components, and consistent development practices.
 
-Our focus is on practical software architecture that supports real-world systems, long-term maintainability, and consistent engineering practices.
+---
+
+## 📚 Documentation
+
+Structured documentation is a primary part of this organization.
+
+- [Architecture Book](https://github.com/StruttonTechnologies/ArchitectureDocumentation)  
+- [Core ToolKit Documentation](https://github.com/StruttonTechnologies/Documentation.Core.ToolKits)  
+
+These documents explain the architectural approach, design decisions, and supporting utilities used across projects.
+
+If you are exploring this organization, this is the best place to start.
 
 ---
 
@@ -24,49 +35,72 @@ Independently deployable services with well-defined boundaries, allowing systems
 
 ---
 
-## What You Will Find Here
+## 🔧 Core Repositories
 
-Repositories within this organization will include:
+Repositories in this organization are designed to support these architectural approaches.
 
-- Git repository templates
-- Visual Studio solution and project templates
-- GitHub Copilot guidance
-- architecture standards
-- development conventions
-- reusable .NET libraries
-- supporting documentation for consistent solution design
+They include:
+
+- reusable .NET libraries  
+- solution and project templates  
+- architecture standards and guidance  
+- development conventions  
+- supporting documentation  
+
+Examples include:
+
+- Core.ToolKit  
+- Core.Identity  
 
 ---
 
-## Design Goals
+## 🧠 Design Goals
 
 The goal of these repositories is to provide a repeatable foundation for building software that is:
 
-- maintainable
-- modular
-- scalable
-- testable
-- understandable by development teams over time
+- maintainable  
+- modular  
+- scalable  
+- testable  
+- understandable by development teams over time  
 
 ---
 
-## Technology Focus
+## 🧱 Engineering Approach
+
+The focus is on building systems that are:
+
+- structured and predictable  
+- explicit in behavior and intent  
+- consistent across projects  
+- designed with clear boundaries and responsibilities  
+
+Key principles include:
+
+- separation of concerns  
+- controlled dependency direction  
+- explicit contracts  
+- architectural enforcement over convention  
+
+---
+
+## ⚙️ Technology Focus
 
 Current work is centered around the .NET ecosystem, including:
 
-- .NET
-- C#
-- ASP.NET Core
-- Blazor
-- Entity Framework
-- layered architecture patterns
-- modular application design
-- dependency injection and composition
-- testable application structure
+- .NET  
+- C#  
+- ASP.NET Core  
+- Blazor  
+- Entity Framework  
+- layered architecture patterns  
+- modular application design  
+- dependency injection and composition  
+- testable application structure  
 
 ---
 
-## Repository Categories
+## 📦 Repository Categories
 
 As the organization grows, repositories will generally fall into several categories.
 
@@ -88,4 +122,6 @@ Supporting assets that help streamline development workflows and consistency.
 
 ---
 
-*Additional repositories, templates, and documentation will be added over time as the ecosystem continues to evolve.*
+## 🚧 Status
+
+This organization is actively evolving. Additional repositories, templates, and documentation will be added over time.
