@@ -1,5 +1,5 @@
 # Strutton Technologies <p align="center">
-  <img src="https://raw.githubusercontent.com/StruttonTechnologies/Assets/main/logo/strutton-technologies-full-logo.png" width="250"/>
+  <img src="https://github.com/StruttonTechnologies/Assets/blob/main/Logos/StruttonTechnologies_FullLogo.png" width="250"/>
 </p>
 
 Strutton Technologies focuses on building maintainable, well-structured software systems using practical architecture, reusable components, and consistent development practices.
