@@ -54,9 +54,8 @@ Reusable engineering libraries are grouped into repositories based on architectu
 | **Core.ToolKit** | Cross-cutting engineering utilities that can be referenced from any architectural layer. |
 | **Core.Testing** | Shared testing infrastructure, fixtures, builders, helpers, and reusable testing components. |
 | **Core.Identity** | Identity management, authentication, authorization, and supporting identity infrastructure. |
-| **Core.PresentationLayer** | Shared API infrastructure, controllers, presentation abstractions, and related components. |
+| **Core.PresentationLayer** | Shared presentation technologies including APIs, Blazor applications, controllers, presentation abstractions, and related components. |
 | **Core.Implementations** | Concrete implementations including persistence, repositories, services, integrations, and infrastructure components. |
-| **UI** | User interface technologies including Blazor applications and future client frameworks. |
 
 Each engineering library repository contains its own documentation describing its internal organization, published packages, and intended usage.
 
