@@ -4,115 +4,112 @@
 
 # Strutton Technologies
 
-Strutton Technologies develops practical software architecture, reusable engineering libraries, and application templates for building maintainable, scalable software systems.
+Strutton Technologies develops practical software architecture, reusable engineering libraries, application templates, and engineering documentation for building maintainable, scalable .NET applications.
 
 ---
 
-## 🎯 Mission
+# 🎯 Mission
 
-The goal of Strutton Technologies is to make high-quality software architecture practical and repeatable by providing documentation, reusable engineering libraries, application templates, and reference implementations built around consistent architectural principles.
+The goal of Strutton Technologies is to make enterprise software architecture practical and repeatable by providing clear architectural guidance, reusable engineering libraries, application templates, and reference implementations built around consistent engineering principles.
 
 ---
 
-## 📚 Engineering Documentation
+# 📚 Engineering Documentation
 
-### 📘 [Application Architecture](https://github.com/StruttonTechnologies/Documentation.Application.Architecture)
+## 📘 Application Architecture
 
-*Application Architecture* is the first published volume in the Strutton Technologies Architecture Book series. It defines the architectural model, design philosophy, and engineering principles that guide software development throughout the organization.
-
-Future volumes will expand on these concepts, covering application development, implementation patterns, infrastructure, security, engineering standards, and other technical disciplines.
+The **Application Architecture** book is the foundation of this organization. It defines the architectural philosophy, terminology, design principles, and engineering practices used throughout every repository.
 
 If you're exploring this organization for the first time, **Application Architecture** is the recommended starting point.
 
----
+**Repository**
 
-## 🏛️ Supported Architectures
+https://github.com/StruttonTechnologies/Documentation.Application.Architecture
 
-This organization develops guidance, tooling, and reusable components that support several architectural styles.
-
-### Clean Monolith
-
-A single deployable application with a well-defined internal structure and clear boundaries between presentation, application, domain, and infrastructure layers.
-
-### Service-Based Architecture
-
-A modular architecture where business capabilities are implemented as independent modules within a shared host application, providing clear separation while remaining a single deployable system.
-
-### Microservices
-
-Independently deployable services with well-defined boundaries, enabling systems to scale through service separation when operational complexity is justified.
+Future volumes will expand on these concepts by covering application development, implementation patterns, infrastructure, security, engineering standards, and additional technical disciplines.
 
 ---
 
-## 📦 Engineering Libraries
+# 🏛️ Supported Architectures
 
-The repositories in this organization provide reusable building blocks that support the architectural styles described above.
+The engineering platform supports multiple architectural styles while maintaining a consistent set of engineering principles.
 
-They include:
+- Clean Monolith
+- Service-Based Architecture
+- Microservices
 
-- reusable .NET libraries
-- application templates
-- architecture standards
-- engineering guidance
-- development conventions
-- supporting documentation
+---
+
+# 🗂️ Repository Organization
+
+Repositories are organized according to their purpose.
+
+## Engineering Libraries
+
+Reusable engineering libraries are grouped into repositories based on architectural responsibility. Each repository contains one or more related projects that evolve together and publish one or more NuGet packages.
+
+| Repository | Purpose |
+|------------|---------|
+| **Core.Foundation** | Foundational contracts, domain abstractions, DTOs, messages, interfaces, rules, and shared assets. |
+| **Core.ToolKit** | Cross-cutting engineering utilities that can be referenced from any architectural layer. |
+| **Core.Testing** | Shared testing infrastructure, fixtures, builders, helpers, and reusable testing components. |
+| **Core.Identity** | Identity management, authentication, authorization, and supporting identity infrastructure. |
+| **Core.PresentationLayer** | Shared API infrastructure, controllers, presentation abstractions, and related components. |
+| **Core.Implementations** | Concrete implementations including persistence, repositories, services, integrations, and infrastructure components. |
+| **UI** | User interface technologies including Blazor applications and future client frameworks. |
+
+Each engineering library repository contains its own documentation describing its internal organization, published packages, and intended usage.
+
+## Applications
+
+Applications are maintained as a single repository.
+
+An application repository contains everything required to build, test, and deploy that application while consuming the reusable engineering libraries published by this organization.
 
 Examples include:
 
-- Core.ToolKits
-- Core.Identity
+- **RidgeRiders**
+- Future customer applications
+- Reference implementations
+
+This separation keeps reusable platform components independent from the applications that consume them while allowing each application to evolve as a cohesive product.
 
 ---
 
-## 🎯 Engineering Goals
+# 🧱 Engineering Principles
 
-The engineering platform is designed to help developers build software that is:
+Every repository is built around the same architectural philosophy.
 
-- maintainable
-- modular
-- scalable
-- testable
-- understandable throughout the lifetime of the application
+Core principles include:
 
----
-
-## 🧱 Engineering Approach
-
-Software developed using these repositories is designed to be:
-
-- structured and predictable
-- explicit in behavior and intent
-- consistent across projects
-- organized around clear architectural boundaries and responsibilities
-
-Core architectural principles include:
-
-- separation of concerns
-- controlled dependency direction
-- explicit contracts
-- architectural enforcement over convention
+- Separation of Concerns
+- Clear Architectural Boundaries
+- Controlled Dependency Direction
+- Explicit Contracts
+- Reusable Engineering Components
+- Architectural Enforcement over Convention
 
 ---
 
-## ⚙️ Technology Focus
+# ⚙️ Technology Focus
 
-Current work is centered around the Microsoft .NET ecosystem.
+Current development is centered around the Microsoft .NET ecosystem.
 
-### Languages
+## Languages
 
 - C#
 
-### Frameworks
+## Frameworks
 
 - .NET
 - ASP.NET Core
 - Blazor
 
-### Data Access
+## Data Access
 
 - Entity Framework Core
 
-### Architectural Practices
+## Architectural Practices
 
 - Layered Architecture
 - Service-Based Architecture
@@ -121,67 +118,8 @@ Current work is centered around the Microsoft .NET ecosystem.
 
 ---
 
-## 📦 Projects
+# 🚧 Status
 
-The following engineering libraries are currently available.
+Strutton Technologies is under active development.
 
-### Available
-
-#### **Core.ToolKits**
-*Core Capability Toolkit*
-
-Reusable engineering utilities including guard logic, validation, service composition, and testing support.
-
-➡️ https://github.com/StruttonTechnologies/Core.ToolKits
-
----
-
-#### **Core.Identity**
-*Core Capability Identity Management*
-
-Identity and authentication components designed to integrate with the core architectural model.
-
-➡️ https://github.com/StruttonTechnologies/Core.Identity
-
----
-
-### Planned
-
-#### **Core**
-*Core Capability Package*
-
-Foundational components and shared capabilities that support higher-level modules and services.
-
----
-
-#### **Templates.CleanMonolith**
-*Clean Monolith Application Template*
-
-A structured starting point for building layered applications with well-defined architectural boundaries.
-
----
-
-#### **Templates.ServiceBased**
-*Service-Based Application Template*
-
-A modular application template for implementing scalable business capabilities within a single deployable application.
-
----
-
-#### **Templates.Modules**
-*Service-Based Module Template*
-
-A reusable module structure for implementing isolated business functionality within service-based applications.
-
----
-
-#### **Templates.MicroService**
-*Microservice Application Template*
-
-A template for building independently deployable services aligned with the Strutton Technologies architectural model.
-
----
-
-## 🚧 Status
-
-This organization is under active development. Additional documentation, engineering libraries, application templates, architectural guidance, and reference implementations will be published as they become available.
+Additional engineering libraries, application templates, architectural guidance, reference implementations, and documentation will continue to be published as they mature. Each repository contains detailed documentation describing its specific purpose, architecture, and usage.
