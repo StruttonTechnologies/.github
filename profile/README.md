@@ -10,13 +10,15 @@ Strutton Technologies focuses on building maintainable, well-structured software
 
 ## 📚 Documentation
 
-Structured documentation is a primary part of this organization.
+Documentation is treated as a first-class engineering artifact. While this library will continue to expand, every publication is written to serve as a long-term reference rather than temporary project documentation.
 
-- [Architecture Book](https://github.com/StruttonTechnologies/Documentation.Application.Architecture)
+Application Architecture - [Architecture Book](https://github.com/StruttonTechnologies/Documentation.Application.Architecture)
 
-These documents explain the architectural approach, design decisions, and supporting utilities used across projects.
+The Application Architecture book is the first published volume in the Architecture Book series. It introduces the architectural model, design philosophy, and engineering principles that form the foundation of software development across the organization.
 
-If you are exploring this organization, this is the best place to start.
+Future books will build upon the concepts introduced here, covering implementation patterns, engineering practices, infrastructure, and other technical topics.
+
+If you're new to this organization, this is the best place to start.
 
 ---
 
